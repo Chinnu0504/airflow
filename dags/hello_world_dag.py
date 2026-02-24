@@ -23,7 +23,7 @@ with DAG(
     dag_id="hello_world",
     default_args=default_args,
     description="A simple Hello World DAG example",
-    schedule_interval=None,
+    schedule=None,
     start_date=timezone.datetime(2026, 2, 21),
     catchup=False,
     tags=["example", "hello-world"],
